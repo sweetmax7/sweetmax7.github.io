@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>sy3-5.html</title>
+<style type="text/css">
+	.login{
+		margin: 0px auto;    			/*居中对齐*/
+		width: 400px;
+		padding: 14px;
+		border: dashed 2px #C1F3DD;  	/*设置边框*/
+		background:#D9F9EA;  			/*设置背景颜色*/
+	}	
+	.login *{ 							/*设置容器中所有元素的样式*/
+		margin: 0;
+		padding: 0;
+		font-family: "宋体";
+		font-size: 20px;
+		line-height: 1.5em;
+	}
+	.login h2{
+		text-align: center;
+		font-size: 25px;
+		font-weight: bold;
+		margin-bottom: 10px;
+		padding-bottom: 10px;
+		border-bottom: solid 2px #C1F3DD;
+	}
+	.login .content{
+		padding: 5px;
+	}
+	.login .frm_cont{
+		margin-bottom: 8px;
+	}
+	.login .username input,.login .password input{
+		width: 230px;
+		height: 18px;
+		padding: 2px 0px 2px 18px;
+		border: solid 1px #C1F3DD;
+	}
+	.login .username input{
+		background: #FFF url("images/登录小人 (3).png") no-repeat left center;
+	}
+	.login .password input{
+		background: #FFF url("images/登录小锁 (2).png") no-repeat left center;
+	}
+	.login .btns{
+		text-align: center;
+	}
+	a:link{
+		background-color:#EADEDE;
+	}
+	a:hover{
+		background-color: #4ED6C6;
+	}
+
+</style>
+</head>
+
+<body>
+	<div class="login">
+		<h2>用户登录</h2>
+		<div class="content">
+			<form>
+				<div class="frm_cont username">用户名：
+					<label for="username"></label>
+					<input type="text" name="username" id="username"/>
+				</div>
+				<div class="frm_cont password">密&nbsp;码：
+					<label for="password"></label>
+					<input type="password" name="password" id="password"/>
+				</div>
+				<div class="btns">
+					<a href="#"><input type="submit" name="button1" id="button1" value="登录"/></a>
+					<a href="#"><input type="button" name="button2" id="button2" value="注册"/></a>
+				</div>
+			</form>
+		</div>
+	</div>		 
+</body>
+</html>
