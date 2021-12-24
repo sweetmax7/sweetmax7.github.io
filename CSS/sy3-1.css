@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color: ivory;
+	}
+h2{
+	color: red;
+	text-align: center;
+	}
+h3{
+	color: green;
+	text-align: left;
+	}
+p{
+	text-decoration-color: black;
+	text-indent: 2em;
+	line-height: 25px;
+}

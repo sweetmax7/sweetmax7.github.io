@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding: 0;
+	font-size: 14px;			/*设置字体大小*/
+	text-align:left;			/*设置文本内容向左对齐*/
+}
+#box{
+	margin: 0 auto;				/*设置容器居中放置*/
+	width: 500px;				/*设置容器宽度*/
+	height: 600px;				/*设置容器高度*/
+	border: 3px solid black;	/*设置容器边框宽度、样式、颜色*/
+	background-color: gray;		/*设置容器背景颜色*/
+	padding: 10px;				/*设置容器内边距*/
+}
+#header{
+	margin: 20px 5px 400px;		/*设置header区域外边距*/
+	width: auto;				/*设置header区域宽度*/
+	height: 150px;				/*设置header区域高度*/
+	border: 2px solid #F1F051;	/*设置header区域边框宽度、样式、颜色*/
+	background-color: red;		/*设置背景颜色*/
+	color: yellow;				/*设置区域字体颜色*/
+}
+#logo{
+	float: left;				/*设置logo区域向左浮动*/
+	width: 150px;
+	height: 50px;
+	margin: 10px 20px;
+	border: 2px solid black;
+	background-color: yellow;
+	color: black;
+}
+#banner{
+	float: right;				/*设置banner区域向右浮动*/
+	width: 220px;
+	height: 50px;
+	margin: 10px 20px;
+	border: 2px solid black;
+	background: blue;
+	color: white;
+}
+#menu{
+	float: none;
+	width: 450px;
+	height: 40px;
+	margin: 75px 20px;
+	border: 2px solid black;
+	background-color:#275410;	
+	color: white;
+}
+#main{
+	float: none;
+	width: auto;
+	height: 300px;
+	margin-top: -75%;			/*使用负边距的元素可以将其他容器吸引到身边*/
+	border: 2px solid yellow;
+	background: green;
+	color: white;
+}
+#sidebar{
+	float: left;
+	width: 120px;
+	height: 240px;
+	margin: 0px 20px;
+	border: 2px solid white;
+	background-color: blue;
+	color: white;
+}
+#content{
+	float: right;
+	width: 280px;
+	height: 240px;
+	margin: 0px 20px;
+	border: 2px solid white;
+	background-color: aqua;
+	color: white;
+}
+#footer{
+	float: none;
+	width: auto;
+	height: 40px;
+	margin-top: 3%;
+	border: 2px solid yellow;
+	background-color: red;
+	color: white;
+}

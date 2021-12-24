@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+*{									/**表示针对HTML的所有元素*/
+	padding: 0;						/*内边距为0px*/
+	margin: 0;						/*外边距为0px*/
+	line-height: 20px;				/*行高20px*/
+}
+body{								/*设置页面整体样式*/
+	height: 100%;					/*高度为相对单位*/
+	background-color:#E8E5E5;		/*背景颜色为浅灰色*/
+	position: relative;				/*位置为相对定位*/
+}
+#wrapper{
+	padding: 0 0 5px 0;				/*上下左右内边距*/
+	width: 800px;					/*容器宽度*/
+}
+#item{
+	float: left;					/*向左浮动*/
+	width: 500px;					
+	margin: 10px 20px ;
+	background-color: #E8E5E5;
+	background-position: top left;	/*背景对象顶端左对齐*/
+}
+#item h4{
+	font-family: Arial,Helvetica,snas-serif;	
+	font-size: 24px;							/*设置字体大小为24px*/
+	color: #7A7A7A;
+	font-weight: normal;						/*设置字体粗细正常*/
+}
+.big_view{
+	width: 478px;
+	padding: 10px 0 12px 0;
+	vertical-align: middle;			/*垂直方向居中对齐*/
+	border: 1px solid #D6D3C7;		/*设置边框宽度样式及颜色*/
+	position: relative;				/*相对定位*/
+	text-align: center;				/*文字居中对齐*/
+	background-color: white;
+}
+.big_view span{
+	font-size: 30px;
+	color: red;
+	display: block;					/*块级元素*/
+	position: absolute;				/*绝对定位*/
+	left: 25px;						/*距离容器左边25px*/
+	bottom: 10px;					/*距离容器底部10px*/
+}
+.small_view{
+	width: 478px;
+	border: 1px solid #D6D3C7;
+	background-color: white;
+	padding: 6px 0;
+	text-align: center;
+	margin: 5px 0 0 0;
+}
+.small_view a{
+	margin: 0 2px;
+}
+#side{
+	width: 220px;
+	float:left;						/*向左浮动*/
+	padding: 55px 0 0 25px;
+}
+#side p{
+	padding-bottom: 15px;			/*下内边距为15px*/
+}
+.view{
+	display: block;					/*块级元素*/
+	float: left;					/*向左浮动*/
+	line-height: 18px;
+	margin: 3px 3px 0 0;
+	width: 41px;
+	text-align: center;
+	background-color: #90C92E;
+	color: #FFFFFF;
+	text-decoration: none;			/*连接无修饰*/
+}
+.buy{
+	display: block;
+	float: left;
+	line-height: 18px;
+	margin: 3px 3px 0 0;
+	width: 92px;
+	text-align: center;
+	background-color:#4D4040;
+	color: #90C92E;
+	text-decoration: none;
+}

@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	align:center;
+	}
+table{
+	width: 700px;
+	height: 40px;
+	text-align: center;
+	border-collapse:collapse; 	/*设置边框两两相邻边框合并*/
+	}
+table caption{
+	text-align: center;
+	font-size: 2em;			  	/*字体大小为2em*/
+	}
+table tbody tr:nth-child(even){ /*nth-chid()是伪类，偶数行用even或2n*/
+	background-color:#F4F8BC; 	
+	}
+table tbody tr:nth-child(odd){	/*奇数行用odd或2n+1*/
+	background-color:#D8E9E5; 	
+	}
+th{
+	background-color:#397296;	/*表头背景颜色*/
+	color:#FFFFFF;            	/*表头字体颜色*/
+	text-align: center;
+	border: 2px solid #000000;	/*边框宽度及颜色*/
+	}
+td{
+	border: 2px solid #000000;	/*边框宽度及颜色*/
+	}

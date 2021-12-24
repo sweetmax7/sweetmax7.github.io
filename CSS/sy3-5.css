@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+div{
+	text-align: center;
+	margin: 0px auto;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -150px;
+    margin-left: -250px;
+	}
+form{
+	background-color:#E5FAF2;	/*设置表单背景颜色*/
+	border: 2px solid #A8EAEC;	/*设置表单边框宽度及颜色*/
+	border-style: dashed;		/*设置表单边框样式*/
+	width: 500px;				/*设置表单宽度*/	
+	}
+hr{
+	width: 400px;
+	color: #A8EAEC;
+	}
+input{
+	border-color: #A8EAEC;
+	border-style:double;
+	}
+input:link{
+	color: #C5C3C3;
+	}
+input:visited{
+	color: #A8EAEC;
+	}
