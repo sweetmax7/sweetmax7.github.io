@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* contact */
+
+textarea {
+    height: 200px;
+    resize: none;
+}
+
+form.register-wthree .form-control {
+    padding: 15px 20px;
+    border: 1px solid #dbdde2;
+    border-radius: 0;
+    -webkit-box-shadow: 2px 8px 10px 0px rgba(50, 46, 46, 0.23);
+    -moz-box-shadow: 2px 8px 10px 0px rgba(50, 46, 46, 0.23);
+    box-shadow: 2px 8px 10px 0px rgba(50, 46, 46, 0.23);
+    letter-spacing: 1px;
+}
+
+.contact-form-wthreelayouts {
+    padding: 2em;
+    border: 20px solid #eee;
+    border-radius: 20px;
+}
+
+.contact-w3 span {
+    color: #2a419f;
+    font-size: 1.2em;
+    display: inline-block;
+    vertical-align: middle;
+    background: #fff;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    -webkit-box-shadow: 5px 10px 10px 0px rgba(216, 216, 216, 0.78);
+    -moz-box-shadow: 5px 10px 10px 0px rgba(216, 216, 216, 0.78);
+    box-shadow: 5px 10px 10px 0px rgba(216, 216, 216, 0.78);
+    /* border-radius: 8% 37% 5% 26%; */
+    /* border: 1px solid #fff; */
+    text-align: center;
+}
+
+.contact-w3 {
+    background: #eee;
+    padding: 2em 1em;
+}
+
+.contact-w3 a,
+.contact-w3 address p {
+    color: #000;
+    font-size: 0.9em;
+    letter-spacing: 0.5px;
+}
+
+h5.cont-form {
+    margin: 1em 0;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 1.7em;
+    font-family: 'Lato', sans-serif;
+    color: #35b53e;
+    font-weight: 600;
+}
